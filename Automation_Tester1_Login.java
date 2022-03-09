@@ -15,7 +15,7 @@ public class Scenario3 {
         driver.findElement(By.name("Email")).sendKeys("kalyanyadav7391@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("kalyan123");
         driver.findElement(By.xpath("//input[@value='Log in']")).click();
-        driver.close();
+       // driver.close();
         
 	}
 
